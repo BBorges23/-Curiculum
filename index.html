@@ -46,11 +46,14 @@
                 background-size: none;
                 display: none;
             }
+        
+            
           }
         @media (min-width: 450px) {
             .none{
                 display: none !important;
             }
+            
           }
     </style>
     <title>Bruno Silva</title>
@@ -63,14 +66,12 @@
         <div class="row align-items-center cordefundo text-white">
             <nav class="navbar navbar-expand-lg none ">
                 
-                <div class="container-md px-4">
-                    <a class="navbar-brand" href="#">Menu</a>
-                    
+                <div class="container-md px-4">                    
                     <div class="dropdown">
                         <button class="btn dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="menu.png" alt="" width="25px">
                         </button>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu ">
                           <li><a class="dropdown-item " href="experiencias.html">EXPERIÊNCIAS</a></li>
                           <li><a class="dropdown-item" href="formacao.html">FORMAÇÃO</a></li>
                           <li><a class="dropdown-item" href="skills.html">SKILLS</a></li>
@@ -80,7 +81,7 @@
             </nav>
 
             <div class="col-md-5 text-center   " >
-                <p class="text-center" id="data" >data</p>
+                <p class="text-center " id="data"  >data</p>
                 <img src="foto.jpeg" class="img-fluid rounded-circle border" alt="foto perfil" width="300px">
             </div>
             <div class="col-md-5 ">
@@ -154,7 +155,7 @@
 </body>
 </html>
 <!-- data atual em java script -->
-<!-- 
+    
 <script>
     function getCurrentDate() {
         const today = new Date();
@@ -174,4 +175,3 @@
       const dataAtual = getCurrentDate();
       dataElement.innerHTML = dataAtual;
 </script>
--->
